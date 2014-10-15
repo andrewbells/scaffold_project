@@ -12,5 +12,10 @@ $primary-color: red;
 
 .test_sass{
   @include border-radius(10px);
-  border: 2px $primary-color;
+  border: 2px solid $primary-color;
+  width: 200px;
+  height: 50px;
+  line-height: 45px;
+  display: block;
+  text-align: center;
 }
