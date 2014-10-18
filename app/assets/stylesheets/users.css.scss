@@ -8,7 +8,7 @@
   -ms-border-radius: $radius;
   border-radius: $radius;
 }
-$primary-color: ##3B7A57;
+$primary-color: #3B7A57;
 
 .test_sass{
   @include border-radius(10px);
