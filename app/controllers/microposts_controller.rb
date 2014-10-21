@@ -5,6 +5,8 @@ class MicropostsController < ApplicationController
   # GET /microposts.json
   def index
     @microposts = Micropost.all
+
+    @certain_user = User.find(1).microposts
   end
 
   # GET /microposts/1
